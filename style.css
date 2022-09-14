@@ -10,11 +10,12 @@ Estilo Inline
 
 * {
     margin: 0;
+    font-size: 62.5%;
 }
 
 h1 {
-    font-size: 62.5%;
-
+    font-size: 4rem;
+    color: black;
 }
 
 .background-ps {
@@ -23,4 +24,8 @@ h1 {
 
 h1:hover{
     color: red;
+}
+
+#capa {
+    background-color: coral;
 }
