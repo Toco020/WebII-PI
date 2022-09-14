@@ -1,0 +1,26 @@
+/* 
+Seletores Universais
+Tipo de Seletores
+Classes seletoras
+Atributos Seletores
+Pseudo-classes
+Seletores ID
+Estilo Inline
+*/
+
+* {
+    margin: 0;
+}
+
+h1 {
+    font-size: 62.5%;
+
+}
+
+.background-ps {
+    background-color: aqua;
+}
+
+h1:hover{
+    color: red;
+}
