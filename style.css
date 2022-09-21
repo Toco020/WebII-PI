@@ -5,12 +5,23 @@
 
     font-size: 62.5%;
 
+    --borda-semi-redonda: 1.2rem 0 1.2rem 0;
+}
+
+:root > .dark-mode {
     --primary-color: #000;
     --secondary-color: #6200ee;
     --tertiary-color: #fff;
-    --background-fume: rgba(0, 0, 0, .4);
+    --dark-fume: rgba(0, 0, 0, .4);
+    --light-fume: rgba(255, 255, 255, .4);
+}
 
-    --borda-semi-redonda: 1.2rem 0 1.2rem 0;
+:root > .light-mode {
+    --primary-color: #fff;
+    --secondary-color: #6200ee;
+    --tertiary-color: #000;
+    --dark-fume: rgba(255, 255, 255, .4);
+    --light-fume: rgba(0, 0, 0, .4);
 }
 
 body {
@@ -77,7 +88,8 @@ p {
 }
 
 #dark-light p {
-    color: white;
+    color: var(--tertiary-color);
+    font-weight: bold;
     font-size: 2.4rem;
     display: inline-block;
     margin-left: 50px;
@@ -127,11 +139,11 @@ p {
 }
 
 input:checked + .slider {
-    background-color: var(--tertiary-color);
+    background-color: var(--primary-color);
 }
 
 input:focus + .slider {
-    box-shadow: 0 0 1px var(--tertiary-color);
+    box-shadow: 0 0 1px var(--primary-color);
 }
 
 input:checked + .slider:before {
@@ -215,7 +227,7 @@ figure {
     justify-content: center;
     grid-row: 1/span 2;
 
-    background-color: var(--background-fume);
+    background-color: var(--dark-fume);
     border-radius: var(--borda-semi-redonda);
     box-shadow: var(--tertiary-color) 0px 0px .6rem;
 }
@@ -246,13 +258,20 @@ figure {
 }
 
 .item {
-    background-color: var(--background-fume);
+    background-color: var(--dark-fume);
     border-radius: var(--borda-semi-redonda);
     box-shadow: var(--tertiary-color) 0px 0px .8rem;
+    transition: background-color .7s;
 }
 
 .item > img {
     border-radius: 1.2rem 0 0 0;
+    width: 100%;
 }
 
+.item:hover {
+    background-color: var(--tertiary-color);
+    box-shadow: var(--tertiary-color) 0px 0px 1.2rem;
+    color: var(--primary-color);
+}
 
