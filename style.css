@@ -9,6 +9,7 @@
 
 body {
     margin: 0;
+    color: var(--tertiary-color);
 }
 
 .background-ps{
@@ -18,8 +19,31 @@ body {
 .background-sp {}
 
 h1 {
-    font-size: 40px;
+    font-size: 4rem;
 }
+
+h2 {
+    font-size: 3.5rem;
+}
+
+/* Estilização do Menu */
+
+nav {
+    display: inline-block;
+}
+
+ul {
+    float: right;
+
+
+}
+
+li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem 3rem;
+}
+
 
 
 /* Estilização da Capa de Apresentação */
@@ -48,7 +72,6 @@ h1 {
 
 #row-capa h1 {
     display: inline-block;
-    color: var(--tertiary-color);
 
     position: relative;
 
