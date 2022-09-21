@@ -17,6 +17,11 @@ body {
 
 .background-sp {}
 
+h1 {
+    font-size: 40px;
+}
+
+
 /* Estilização da Capa de Apresentação */
 
 #capa {
@@ -24,12 +29,29 @@ body {
 }
 
 #capa #row-capa {
-    /* display: inline-block; */
     position: absolute;
-    top: 200px;
+    margin: 280px 0 0 316px;
 
-
-    background-color: aqua;
-    
+    /* background-color: aqua; */
 }
 
+
+#row-capa img {
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+
+    border-radius: 50%;
+    border: 2px solid var(--tertiary-color);
+    box-shadow: var(--tertiary-color) 0 0 15px;
+}
+
+#row-capa h1 {
+    display: inline-block;
+    color: var(--tertiary-color);
+
+    position: relative;
+
+    top: -180px;
+    left: 50px;
+}
