@@ -37,7 +37,9 @@ h2 {
 
 #menu ul {
     display: inline-block;
-    margin: 0 0 0 1000px;
+    margin-right: 10rem;
+    float: right;
+    
 }
 
 #menu ul li {
