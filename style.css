@@ -5,21 +5,26 @@
 
     font-size: 62.5%;
 
+    --base: #6200ee;
+    --preto: #000;
+    --branco: #fff;
+
+
     --borda-semi-redonda: 1.2rem 0 1.2rem 0;
 }
 
 :root > .dark-mode {
-    --primary-color: #000;
-    --secondary-color: #6200ee;
-    --tertiary-color: #fff;
+    --primary-color: var(--preto);
+    --secondary-color: var(--base);
+    --tertiary-color: var(--branco);
     --dark-fume: rgba(0, 0, 0, .4);
     --light-fume: rgba(255, 255, 255, .4);
 }
 
 :root > .light-mode {
-    --primary-color: #fff;
-    --secondary-color: #6200ee;
-    --tertiary-color: #000;
+    --primary-color: var(--branco);
+    --secondary-color: var(--base);
+    --tertiary-color: var(--preto);
     --dark-fume: rgba(255, 255, 255, .4);
     --light-fume: rgba(0, 0, 0, .4);
 }
@@ -209,7 +214,7 @@ figure {
     row-gap: 9rem;
     padding-top: 14rem;
 
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .grid-item {
