@@ -30,9 +30,12 @@ h2 {
 
 nav {
     display: inline-block;
+
+    position: fixed;
 }
 
 ul {
+    display: inline-block;
     float: right;
 
 
