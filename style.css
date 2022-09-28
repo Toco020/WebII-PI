@@ -175,17 +175,21 @@ input:checked + .slider:before {
 
 #biografia {
     display: grid;
-    grid-template-rows: 4fr 5fr 1fr;
+    grid-template-rows: 4fr 5fr;
     justify-items: normal;
-    padding: 1rem;
-    height: 30rem;
+    padding: .5rem;
+    height: 100rem;
 
     background-color: aqua;
 }
 
 .grid-item {
     text-align: center;
-    grid-template-columns: 300px 300px;
+    /* grid-template-columns: 300px 300px; */
 
     background-color: coral;
+}
+
+.grid-item-item1 {
+    grid-template-columns: 300px 1fr 1fr 300px;
 }
