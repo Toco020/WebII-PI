@@ -193,7 +193,17 @@ input:checked + .slider:before {
     background-color: coral;
 }
 
+.text {
+    grid-column-start: 2;
+    grid-column-end: 3;
 
+    height: 10rem;
+}
+
+.content {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
 
 
 
