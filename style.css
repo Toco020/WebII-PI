@@ -173,3 +173,8 @@ input:checked + .slider:before {
 
 /* # Estilização da Biografia # */
 
+#biografia {
+    display: grid;
+    grid-template-columns: 1rem 1fr 1rem;
+
+}
