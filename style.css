@@ -198,7 +198,8 @@ input:checked + .slider:before {
     grid-column-start: 2;
     grid-column-end: 3;
 
-    grid-row: 1/span 2;
+    /* grid-row: 1/span 2; */
+    height: 10rem;
     align-items: center;
 }
 
