@@ -170,3 +170,22 @@ input:checked + .slider:before {
     top: -180px;
     left: 120px;
 }
+
+/* # Estilização da Biografia # */
+
+#biografia {
+    display: grid;
+    grid-template-rows: 4fr 5fr 1fr;
+    justify-items: normal;
+    padding: 1rem;
+    height: 30rem;
+
+    background-color: aqua;
+}
+
+.grid-item {
+    text-align: center;
+    /* grid-template-columns: 300px 1fr 300px; */
+
+    background-color: coral;
+}
