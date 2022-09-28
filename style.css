@@ -193,12 +193,13 @@ input:checked + .slider:before {
     background-color: coral;
 }
 
-.text {
+/* .texto {
     grid-column-start: 2;
     grid-column-end: 3;
 
     height: 10rem;
-}
+    align-items: center;
+} */
 
 .content {
     grid-column-start: 2;
