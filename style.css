@@ -178,7 +178,6 @@ input:checked + .slider:before {
     grid-template-rows: 10rem 1fr;
     grid-template-columns: 20rem 1fr 20rem;
     grid-area: content;
-    justify-items: normal;
     
     row-gap: 9rem;
     padding-top: 14rem;
