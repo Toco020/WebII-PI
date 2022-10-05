@@ -16,9 +16,15 @@
         
         <script>
 
-            function darMode(){
-                let texto = document.getElementById("dark-text");
-                texto.innerHTML = "Light";
+            function darkMode(){
+                let texto = document.getElementById('dark-text');
+                
+                if (texto == "Dark") {
+                    texto.innerHTML = "Light";
+                }else {
+                    texto.innerHTML = "Dark";
+                }
+                    
             }
 
 
