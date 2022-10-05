@@ -3,13 +3,23 @@
 :root {
     box-sizing: border-box;
 
-    font-size: 62.5%;
+    font-size: 62.5%; 
+}
 
+.darkmode {
     --primary-color: #000;
     --secondary-color: #6200ee;
     --tertiary-color: #fff;
     --Wfume: rgba(255, 255, 255, .4);
     --Bfume: rgba(0, 0, 0, .4);
+}
+
+.lightmode {
+    --primary-color: #fff;
+    --secondary-color: #6200ee;
+    --tertiary-color: #000;
+    --Bfume: rgba(255, 255, 255, .4);
+    --Wfume: rgba(0, 0, 0, .4);
 }
 
 body {
