@@ -193,7 +193,7 @@ input:checked + .slider:before {
     background-color: coral;
 }
 
-.texto {
+.text {
     grid-column-start: 2;
     grid-column-end: 3;
 
