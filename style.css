@@ -175,8 +175,8 @@ input:checked + .slider:before {
 
 #biografia {
     display: grid;
-    grid-template-rows: 10rem 1fr;
-    grid-template-columns: 20rem 1fr 20rem;
+    grid-template-rows: 1fr 8fr;
+    /* grid-template-columns: 20rem 1fr 1fr 20rem; */
     grid-area: content;
     justify-items: normal;
     
@@ -188,22 +188,27 @@ input:checked + .slider:before {
 
 .grid-item {
     text-align: center;
-    margin: 1rem;
+    /* margin: 1rem; */
+    
+    
 
     background-color: coral;
+    
 }
 
 .text {
-    grid-column-start: 2;
+    grid-column-start: 1;
     grid-column-end: 3;
-
+    width: 70%;
     height: 10rem;
     align-items: center;
+    /* grid-template-columns: 20rem 1fr 20rem; */
 }
 
 .content {
-    grid-column-start: 2;
+    grid-column-start: 1;
     grid-column-end: 3;
+    grid-template-columns: 1fr 6fr;
 }
 
 
