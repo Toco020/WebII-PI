@@ -207,17 +207,8 @@ input:checked + .slider:before {
     grid-column-start: 2;
     grid-column-end: 3;
 
-    /* grid-template-columns: 10px 1fr 1fr 10px; */
-
     margin-bottom: 12rem;
 }
-
-/* .grid-item-item1 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-
-    margin-right: 7rem;
-} */
 
 
 
