@@ -13,15 +13,26 @@
         <title>Minha Bibliografia</title> 
 
         <link rel="stylesheet" href="style.css">
+        
+        <script>
+
+            function darMode(){
+                let texto = document.getElementById("dark-text");
+                texto.innerHTML = "Light";
+            }
+
+
+
+        </script>
     </head>
     <body>
         
         <nav id="menu">
             <!-- Rounded switch -->
             <div id="dark-light">
-                <p>Dark</p>
+                <p id="dark-text">Dark</p>
                 <label class="switch">
-                    <input type="checkbox">
+                    <input type="checkbox" onclick="darkMode()">
                     <span class="slider round"></span>
                 </label>
             </div>
