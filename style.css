@@ -200,16 +200,24 @@ input:checked + .slider:before {
     /* grid-row: 1/span 2; */
     height: 10rem;
     align-items: center;
+    justify-content: center;
 }
 
 .content {
     grid-column-start: 2;
     grid-column-end: 3;
 
+    /* grid-template-columns: 10px 1fr 1fr 10px; */
+
     margin-bottom: 12rem;
 }
 
+/* .grid-item-item1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
 
+    margin-right: 7rem;
+} */
 
 
 /* 
@@ -229,7 +237,6 @@ figure {
     row-gap: 9rem;
     padding-top: 14rem;
 
-   
 }
 
 .grid-item {
@@ -258,7 +265,6 @@ figure {
 
     display: grid;
     grid-template-columns: 10px 1fr 1fr 10px;
-
 
     margin-bottom: 12rem;
 }
@@ -291,6 +297,5 @@ figure {
     box-shadow: var(--tertiary-color) 0px 0px 1.2rem;
     color: var(--primary-color);
 }
-
 
 */
