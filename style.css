@@ -220,9 +220,9 @@ figure {
     justify-content: center;
     grid-row: 1/span 2;
 
-    background-color: var(--dark-fume);
+    /* background-color: var(--dark-fume);
     border-radius: var(--borda-semi-redonda);
-    box-shadow: var(--tertiary-color) 0px 0px .6rem;
+    box-shadow: var(--tertiary-color) 0px 0px .6rem; */
 }
 
 .content {
@@ -243,14 +243,14 @@ figure {
     grid-column-start: 2;
     grid-column-end: 3;
 
-    margin-right: 7rem;
+    /* margin-right: 7rem; */
 }
 
 .grid-item-item2 {
-    margin-left: 7rem;
+    /* margin-left: 7rem; */
 }
 
-.item {
+/* .item {
     background-color: var(--dark-fume);
     border-radius: var(--borda-semi-redonda);
     box-shadow: var(--tertiary-color) 0px 0px .8rem;
@@ -266,5 +266,5 @@ figure {
     background-color: var(--tertiary-color);
     box-shadow: var(--tertiary-color) 0px 0px 1.2rem;
     color: var(--primary-color);
-}
+} */
 
