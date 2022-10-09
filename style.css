@@ -20,6 +20,7 @@
     --tertiary-color: #000;
     --Bfume: rgba(255, 255, 255, .4);
     --Wfume: rgba(0, 0, 0, .4);
+    /* color: var(--primary-color); */
 }
 
 body {
@@ -89,7 +90,7 @@ p {
 }
 
 #dark-light p {
-    color: white;
+    color: var(--tertiary-color);
     font-size: 2.4rem;
     display: inline-block;
     margin-left: 50px;
@@ -121,7 +122,7 @@ p {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--primary-color);
+    background-color: var(--tertiary-color);
     -webkit-transition: .4s;
     transition: .4s;
 }

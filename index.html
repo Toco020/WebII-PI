@@ -18,27 +18,28 @@
 
             function darkMode(){
                 let texto = document.getElementById('dark-text');
-                
-                if (texto.innerHTML == "Dark") {
-                    texto.innerHTML = "Light";
-                }else {
+                let body = document.getElementById('body');
+                if (texto.innerHTML == "Light") {
                     texto.innerHTML = "Dark";
+                    body.classList.remove('darkmode');
+                    body.classList.add('lightmode');
+                }else {
+                    texto.innerHTML = "Light";
+                    body.classList.remove('lightmode');
+                    body.classList.add('darkmode');
                 }
                     
             }
 
             function tempo() {
                 let hora = new Date().getHours();// Pega a hora atual do dia, de 0 a 24
+                let body = document.getElementById('body');
 
-                if (hora >= 18) {// Estilização com classes
+                (hora >= 18)// Estilização com classes
+                ? document.getElementById('dark-text').innerHTML = "Light"
+                : document.getElementById('dark-text').innerHTML = "Dark";
 
-
-
-                }else {
-
-
-
-                }
+                darkMode();
             }
 
 
@@ -50,7 +51,7 @@
         <nav id="menu">
             <!-- Rounded switch -->
             <div id="dark-light">
-                <p id="dark-text">Dark</p>
+                <p id="dark-text">Light</p>
                 <label class="switch">
                     <input type="checkbox" onclick="darkMode()">
                     <span class="slider round"></span>
