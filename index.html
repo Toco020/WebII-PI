@@ -19,25 +19,36 @@
             function darkMode(){
                 let texto = document.getElementById('dark-text');
                 let body = document.getElementById('body');
+                
+
                 if (texto.innerHTML == "Light") {
-                    texto.innerHTML = "Dark";
+                    // Light mode
                     body.classList.remove('darkmode');
                     body.classList.add('lightmode');
+                    document.getElementById('dark-text').innerHTML = "Dark";
                 }else {
-                    texto.innerHTML = "Light";
+                    // Dark mode
                     body.classList.remove('lightmode');
                     body.classList.add('darkmode');
+                    document.getElementById('dark-text').innerHTML = "Light";
                 }
                     
             }
 
             function tempo() {
-                let hora = new Date().getHours();// Pega a hora atual do dia, de 0 a 24
+                let tempo = new Date().getHours();
                 let body = document.getElementById('body');
 
-                (hora >= 18)// Estilização com classes
-                ? document.getElementById('dark-text').innerHTML = "Light"
-                : document.getElementById('dark-text').innerHTML = "Dark";
+                if (tempo < 18){
+                    // Light mode
+                    
+                    document.getElementById('dark-text').innerHTML = "Dark";
+
+                }else {
+                    // Dark mode
+                    
+                    document.getElementById('dark-text').innerHTML = "Light";
+                }
 
                 darkMode();
             }
