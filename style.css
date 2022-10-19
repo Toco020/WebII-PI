@@ -294,6 +294,7 @@ figure {
     background-color: var(--Bfume);
     width: 40%;
     height: 20rem;
+    border-radius: 1.2rem 0;
 
     display: flex;
     flex-direction: column;
@@ -302,34 +303,81 @@ figure {
 }
 
 #tecnologias select {
-    width: 60%;
+    width: 90%;
     font-size: 2.5rem;
 
     color: var(--primary-color);
     background-color: var(--tertiary-color);
     text-align: center;
+    border-radius: 1.2rem 0;
 
     -webkit-appearance: none;
     -moz-appearance: none;
 }
 
-#tecnologia .row {
+#tecnologias .row {
     display: flex;
     flex-direction: row;
 }
 
-#tecnologia .col {
+#tecnologias .col {
     display: flex;
     flex-direction: column;
 }
 
-#tecnologia input {
+#tecnologias input {
     width: 2rem;
     height: 2rem;
 }
 
-#tecnologia label {
+#tecnologias label {
     font-size: 2.2rem;
+    color: var(--tertiary-color);
 }
+
+#tecnologias .center {
+    margin: auto 18rem;
+}
+
+#tecnologias .topo {
+    margin-bottom: 1rem;
+}
+
+/* ## Projetos ## */
+
+#projetos {
+    width: 90%;
+    height: 50rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--Bfume);
+}
+
+#projetos #slider {
+    display: flex;
+    align-items: center;
+}
+
+#projetos .slide {
+
+}
+
+#projetos img {
+    width: 70%;
+
+
+
+    border-radius: 1.2rem 0;
+}
+
+#projetos figcaption {
+    
+}
+
+
+
 
 
