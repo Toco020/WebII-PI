@@ -284,9 +284,9 @@ figure {
 #portfolio {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Alinhamento na horizontal topo e baixo */
+    justify-content:space-evenly; /* Alinhamento na horizontal topo e baixo */
     align-items: center;  /* Alinhamento na vertical esquerda e direita*/
-
+    height: 100rem;
     
 }
 
@@ -306,12 +306,15 @@ figure {
 
     color: var(--primary-color);
     background-color: var(--tertiary-color);
+    text-align: center;
 
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 #tecnologia .row {
     display: flex;
-    
+    flex-direction: row;
 }
 
 
