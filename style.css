@@ -298,6 +298,7 @@ figure {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 #tecnologias select {
@@ -317,6 +318,18 @@ figure {
     flex-direction: row;
 }
 
+#tecnologia .col {
+    display: flex;
+    flex-direction: column;
+}
 
+#tecnologia input {
+    width: 2rem;
+    height: 2rem;
+}
+
+#tecnologia label {
+    font-size: 2.2rem;
+}
 
 
