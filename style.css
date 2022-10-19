@@ -324,13 +324,20 @@ figure {
     margin-bottom: 5rem;
 }
 
-#tecnologias input[checked] {
-    width: 5rem;
+#tecnologias input {
+    width: 2rem;
+    height: 2rem;
 }
 
 #tecnologias label {
     font-size: 2.2rem;
+    color: var(--tertiary-color);
 }
+
+#tecnologias .left {
+    
+}
+
 
 
 
