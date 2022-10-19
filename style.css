@@ -371,18 +371,42 @@ figure {
 }
 
 #projetos .slide img {
-    height: 50%;
+    width: 95%;
+    border-radius: 1.2rem 0;
 }
 
 #projetos .slide figcaption {
-    background-color: coral;
+    background-color: var(--Wfume);
     position: relative;
-    top: -30rem;
+    top: -33.2rem;
 
-    width: 90%;
+    width: 95%;
     line-height: 8rem;
+    border-radius: 1.2rem 0;
+    opacity: 0;
+    color: var(--primary-color);
+    transition: opacity .4s;
 }
 
+#projetos .slide figcaption:hover {
+    opacity: 1;
+}
 
+#projetos figcaption h2 {
+    font-size: 3.5rem;
+}
 
+#projetos figcaption ul {
+    display: flex;
+    justify-content: center;
+}
 
+#projetos figcaption li {
+    font-size: 1.8rem;
+    list-style: none;
+    margin: auto 1rem;
+}
+
+#projetos figcaption p {
+    font-size: 2rem;
+}
