@@ -368,20 +368,27 @@ figure {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: auto 1rem;
 }
 
 #projetos .slide img {
-    width: 95%;
+    width: 52rem;
     border-radius: 1.2rem 0;
 }
 
 #projetos .slide figcaption {
     background-color: var(--Wfume);
     position: relative;
-    top: -33.2rem;
+    top: -32.5rem;
 
-    width: 95%;
-    line-height: 8rem;
+    width: 50rem;
+    height: 30.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 1rem;
     border-radius: 1.2rem 0;
     opacity: 0;
     color: var(--primary-color);
@@ -408,5 +415,6 @@ figure {
 }
 
 #projetos figcaption p {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    line-height: 2rem;
 }
