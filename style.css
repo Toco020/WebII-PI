@@ -306,7 +306,7 @@ figure {
 #tecnologias #tec-ops {
     width: 90%;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     background-color: var(--tertiary-color);
     color: var(--primary-color);
     border-radius: 1.2rem 0;
@@ -324,8 +324,12 @@ figure {
     margin-bottom: 5rem;
 }
 
+#tecnologias input[checked] {
+    width: 5rem;
+}
+
 #tecnologias label {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
 }
 
 
