@@ -283,138 +283,37 @@ figure {
 
 #portfolio {
     display: flex;
-    align-items: center;
-    justify-content:center;
     flex-direction: column;
-    height: 102rem;
-}
+    justify-content: center; /* Alinhamento na horizontal topo e baixo */
+    align-items: center;  /* Alinhamento na vertical esquerda e direita*/
 
-/* ## Tecnologias ## */
+    
+}
 
 #tecnologias {
     background-color: var(--Bfume);
     width: 40%;
-    height: 20%;
+    height: 20rem;
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:space-between;
-    padding: 3rem;
-    margin-bottom: 10rem;
 }
 
-#tecnologias #tec-ops {
-    width: 90%;
-    text-align: center;
+#tecnologias select {
+    width: 60%;
     font-size: 2.5rem;
+
+    color: var(--primary-color);
     background-color: var(--tertiary-color);
-    color: var(--primary-color);
-    border-radius: 1.2rem 0;
 
-    -webkit-appearance: none;
-    -moz-appearance: none;
 }
 
-#tecnologias .row {
+#tecnologia .row {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-#tecnologias .col {
-    margin-bottom: 2rem;
-}
-
-#tecnologias input {
-    width: 2rem;
-    height: 2rem;
-}
-
-#tecnologias label {
-    font-size: 2.2rem;
-    color: var(--tertiary-color);
-}
-
-#tecnologias .center {
-    margin-left: 20rem;
-    margin-right: 20rem;
-}
-
-#tecnologias .top {
-    margin-bottom: 3rem;
+    
 }
 
 
 
 
-/* ## Projetos ## */
-
-#projetos {
-    width: 90%;
-    height: 45%;
-
-    text-align: center;
-    border-radius: 1.2rem 0;
-    background-color: var(--Bfume);
-}
-
-#projetos #slider {
-    display: flex;
-    justify-content: center;
-}
-
-#projetos .slide {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto 1rem;
-}
-
-#projetos .slide img {
-    width: 52rem;
-    border-radius: 1.2rem 0;
-}
-
-#projetos .slide figcaption {
-    background-color: var(--Wfume);
-    position: relative;
-    top: -32.5rem;
-
-    width: 50rem;
-    height: 30.5rem;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    padding: 1rem;
-    border-radius: 1.2rem 0;
-    opacity: 0;
-    color: var(--primary-color);
-    transition: opacity .4s;
-}
-
-#projetos .slide figcaption:hover {
-    opacity: 1;
-}
-
-#projetos figcaption h2 {
-    font-size: 3.5rem;
-}
-
-#projetos figcaption ul {
-    display: flex;
-    justify-content: center;
-}
-
-#projetos figcaption li {
-    font-size: 1.8rem;
-    list-style: none;
-    margin: auto 1rem;
-}
-
-#projetos figcaption p {
-    font-size: 1.8rem;
-    line-height: 2rem;
-}
