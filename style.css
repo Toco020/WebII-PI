@@ -353,14 +353,25 @@ figure {
     background-color: var(--Bfume);
     width: 90%;
     height: 45%;
-    /* text-align: center; */
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     border-radius: 1.2rem 0;
 }
 
+#projetos #slider {
+    display: flex;
+    justify-content: center;
+}
 
+#projetos .slide {
+    width: 25%;
+}
+
+#projetos .slide img {
+    height: 55%;
+}
 
 
 
