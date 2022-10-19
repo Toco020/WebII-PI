@@ -364,7 +364,6 @@ figure {
 }
 
 #projetos .slide {
-    width: 32%;
     display: flex;
     flex-direction: column;
     justify-content: center;
