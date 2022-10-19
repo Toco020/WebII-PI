@@ -284,7 +284,7 @@ figure {
 #portfolio {
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content:center;
     flex-direction: column;
     height: 102rem;
 }
@@ -298,8 +298,21 @@ figure {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
-    padding: 1.5rem;
+    justify-content:space-between;
+    padding: 2rem;
+    margin-bottom: 10rem;
+}
+
+#tecnologias #tec-ops {
+    width: 90%;
+    text-align: center;
+    font-size: 2rem;
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    border-radius: 1.2rem 0;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 #tecnologias .row {
@@ -307,12 +320,12 @@ figure {
     flex-direction: row;
 }
 
-#tecnologias select {
-    width: 90%;
-    text-align: center;
-    font-size: 2rem;
-    background-color: var(--primary-color);
-    color: var(--tertiary-color);
+#tecnologias .col {
+    margin-bottom: 5rem;
+}
+
+#tecnologias label {
+    font-size: 1.8rem;
 }
 
 
