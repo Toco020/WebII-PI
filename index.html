@@ -17,40 +17,27 @@
         <script>
 
             function darkMode(){
-                let texto = document.getElementById('dark-text');
                 let body = document.getElementById('body');
-                
+                let texto = document.getElementById('dark-text');
 
-                if (texto.innerHTML == "Light") {
-                    // Light mode
+                if (texto.innerHTML == "Dark") {
                     body.classList.remove('darkmode');
                     body.classList.add('lightmode');
-                    document.getElementById('dark-text').innerHTML = "Dark";
+                    texto.innerHTML = "Light";
                 }else {
-                    // Dark mode
-                    body.classList.remove('lightmode');
                     body.classList.add('darkmode');
-                    document.getElementById('dark-text').innerHTML = "Light";
-                }
-                    
+                    body.classList.remove('lightmode');
+                    texto.innerHTML = "Dark";
+                }  
             }
 
             function tempo() {
                 let tempo = new Date().getHours();
-                let body = document.getElementById('body');
+                console.log(tempo);
 
-                if (tempo < 18){
-                    // Light mode
-                    
-                    document.getElementById('dark-text').innerHTML = "Dark";
-
-                }else {
-                    // Dark mode
-                    
-                    document.getElementById('dark-text').innerHTML = "Light";
+                if (tempo <= 18 && tempo >= 7){
+                    darkMode();
                 }
-
-                darkMode();
             }
 
 
@@ -62,7 +49,7 @@
         <nav id="menu">
             <!-- Rounded switch -->
             <div id="dark-light">
-                <p id="dark-text">Light</p>
+                <p id="dark-text">Dark</p>
                 <label class="switch">
                     <input type="checkbox" onclick="darkMode()">
                     <span class="slider round"></span>
