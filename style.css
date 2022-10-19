@@ -350,14 +350,12 @@ figure {
 /* ## Projetos ## */
 
 #projetos {
-    background-color: var(--Bfume);
     width: 90%;
     height: 45%;
+
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
     border-radius: 1.2rem 0;
+    background-color: var(--Bfume);
 }
 
 #projetos #slider {
@@ -366,11 +364,24 @@ figure {
 }
 
 #projetos .slide {
-    width: 25%;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #projetos .slide img {
-    height: 55%;
+    height: 50%;
+}
+
+#projetos .slide figcaption {
+    background-color: coral;
+    position: relative;
+    top: -30rem;
+
+    width: 90%;
+    line-height: 8rem;
 }
 
 
