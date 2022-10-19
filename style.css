@@ -299,7 +299,7 @@ figure {
     flex-direction: column;
     align-items: center;
     justify-content:space-between;
-    padding: 2rem;
+    padding: 3rem;
     margin-bottom: 10rem;
 }
 
@@ -318,10 +318,11 @@ figure {
 #tecnologias .row {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 #tecnologias .col {
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 
 #tecnologias input {
@@ -334,10 +335,14 @@ figure {
     color: var(--tertiary-color);
 }
 
-#tecnologias .left {
-    
+#tecnologias .center {
+    margin-left: 20rem;
+    margin-right: 20rem;
 }
 
+#tecnologias .top {
+    margin-bottom: 3rem;
+}
 
 
 
