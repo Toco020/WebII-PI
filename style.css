@@ -356,29 +356,68 @@ figure {
     background-color: var(--Bfume);
 }
 
+#projetos h2 {
+    margin: 3rem auto 4rem;
+}
+
 #projetos #slider {
     display: flex;
     align-items: center;
 }
 
 #projetos .slide {
-
+    margin: auto 1rem;
 }
 
 #projetos img {
-    width: 70%;
-
-
-
+    width: 100%;
     border-radius: 1.2rem 0;
 }
 
 #projetos figcaption {
-    
+    position: relative;    
+
+    top: -34rem;
+
+    height: 31.8rem;
+    width: 96.5%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 1.2rem 0;
+    text-align: center;
+    color: var(--primary-color);
+    background-color: var(--Wfume);
+    padding: 1rem;
+    opacity: 0;
+    transition: opacity .4s;
 }
 
+#projetos figcaption:hover{
+    opacity: 1;
+}
 
+#projetos figcaption h2 {
+    font-size: 3.5rem;
+}
 
+#projetos figcaption ul {
+    display: flex;
+    list-style: none;
+}
+
+#projetos figcaption li {
+    font-size: 1.8rem;
+    margin-right: 1rem;
+}
+
+#projetos figcaption p {
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
 
 
 
